@@ -5,7 +5,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=krishkumarhere&label=Profile%20views&color=0e75b6&style=flat" alt="krishkumarhere" /> </p>
 
-- 🌱 I’m currently learning **React.js , Express.js , pandas**
+
 
 - 📫 How to reach me **567krish.kumar@gmail.com**
 
