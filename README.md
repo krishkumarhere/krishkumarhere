@@ -101,7 +101,7 @@ Robotics     ROS2 · PX4 · MAVLink · Raspberry Pi · ESP32
 | Timeline | Target |
 |---|---|
 | 2026 | Strong internship · Open source track record · Solid CS fundamentals |
-| 2027 | GSoC · Research internship / PPO|
+| 2027 | GSoC · Internship / PPO|
 
 
 
