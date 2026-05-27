@@ -1,222 +1,108 @@
-<h1>I’m Krish Kumar, a developer-engineer working across AI, robotics, and full-stack systems,from real-time vision on drones to cloud-integrated control APIs.</h1>
+# Krish Kumar
 
-<div align="center">
+**ECE undergrad @ JUET · Backend · AI/ML · Robotics**  
+Building production-grade systems at the intersection of AI, automation, and embedded software.
 
-<h1>Robotics | AI/ML | DevOps | Backend Engineer</h1>
-
-<p><strong>Engineering student with a deep passion for building intelligent systems, autonomous robots, agentic AI platforms, scalable backend architectures, and production-grade automation.</strong></p>
-
-<br/>
-
-<!-- Badges -->
-<p>
-  <img src="https://img.shields.io/badge/Backend-Python-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/AI/ML-Deep%20Learning-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Robotics-ROS2-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/DevOps-Docker%20%7C%20CI/CD-yellow?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Cloud-Azure-lightblue?style=for-the-badge"/>
-</p>
-
-<br/>
-
-</div>
-
-<hr/>
-
-<!-- 🔥 NEW: Professional Summary -->
-<h2 align="center">Professional Summary</h2>
-
-<p align="center">
-<strong>
-Driven engineering student with hands-on experience in robotics, applied AI/ML, DevOps, and backend development.  
-I specialize in designing scalable systems, orchestrating multi-agent workflows, building real-time robotics pipelines,  
-and developing robust software architectures.  
-I enjoy solving complex problems at the intersection of AI, automation, and systems engineering.
-</strong>
-</p>
-
-<br/>
-
-<!-- About Me Section -->
-<h2 align="center">About Me</h2>
-
-<ul>
-  <li>Strong interest in <strong>Autonomous Robotics, Edge AI, Multi-Agent Systems, and MLOps</strong>.</li>
-  <li>Skilled in <strong>Python backend, FastAPI, ML model training, real-time systems, and automation pipelines</strong>.</li>
-  <li> Building intelligent robots using <strong>ROS2, LiDAR, SLAM, Computer Vision, and Embedded AI</strong>.</li>
-  <li>Passionate about <strong>DevOps, containerization, CI/CD, infrastructure automation</strong>.</li>
-  <li>Experience using <strong>Azure, Docker, GitHub Actions, cloud-based deployments</strong>.</li>
-  <li>Currently developing <strong>Fusion DevStudio — a multi-agent platform automating end-to-end full-stack development</strong>.</li>
-</ul>
-
-<br/>
+[![GitHub](https://img.shields.io/badge/GitHub-krishkumarhere-181717?style=flat&logo=github)](https://github.com/krishkumarhere)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/your-link)
+[![Email](https://img.shields.io/badge/Email-contact-EA4335?style=flat&logo=gmail)](mailto:your-email)
 
 
-<h2 align="center">🧩Core Competencies</h2>
 
-<table align="center">
-<tr>
-<td width="33%">
+## About
 
-<h3>Systems Engineering</h3>
-<ul>
-  <li>Agentic AI Design</li>
-  <li>Distributed Systems</li>
-  <li>Real-Time Robotics Architectures</li>
-  <li>Automation Pipelines</li>
-  <li>Systems Integration</li>
-</ul>
+I'm a second-year ECE student who builds software, not just studies it.  
+My work spans autonomous drone systems, multi-agent AI platforms, and data engineering pipelines — each shipped, documented, and functional beyond demo conditions.
 
-</td>
-<td width="33%">
+Currently preparing for **GSoC 2027** through active contributions to PX4 and OpenCV.
 
-<h3>Problem Solving</h3>
-<ul>
-  <li>Analytical & Algorithmic Thinking</li>
-  <li>Architectural Decision Making</li>
-  <li>Debugging Complex Systems</li>
-  <li>Designing Scalable Workflows</li>
-  <li>Performance Optimization</li>
-</ul>
 
-</td>
-<td width="33%">
 
-<h3>Collaboration & Leadership</h3>
-<ul>
-  <li>Cross-functional teamwork</li>
-  <li>Technical documentation</li>
-  <li>Mentorship & peer review</li>
-  <li>Ownership & accountability</li>
-  <li>Effective communication</li>
-</ul>
+## Featured Projects
 
-</td>
-</tr>
-</table>
+### [SkyRanger](https://github.com/krishkumarhere/SkyRanger) — Autonomous Inspection Drone Platform
 
-<br/>
+AI-powered drone system built for real-world infrastructure and agricultural inspection.
 
-<!-- Education Placeholder -->
-<h2 align="center">Education</h2>
+- Full MAVLink telemetry pipeline over WebSockets with live GCS dashboard
+- ML inference pipeline (YOLOv8n → NCNN) deployed on Raspberry Pi 5 for edge detection
+- Modular detection modes: human presence, infrastructure faults, thermal anomalies
+- FastAPI backend + React frontend with PostgreSQL state management
+- Hardware: Pixhawk 2.4.8 · Pi Cam 3 · MLX90640 thermal · 3-axis ESP32 gimbal
 
-<div align="center">
-<p><i>📍 <strong>Jaypee University of Engineering and technology</strong></i></p>
-<p><i>B.Tech / B.E in Electronics and communication engineering (ECE)</i></p>
-<p><i>Year: 2023 - 2027</i></p>
-</div>
+`PX4` `ROS2` `FastAPI` `PyTorch` `OpenCV` `Raspberry Pi` `Docker` `PostgreSQL`
 
-<br/>
 
-<hr/>
+### [Fusion DevStudio](https://github.com/krishkumarhere) — Multi-Agent AI Development Platform
 
-<!-- Skill Matrix -->
-<h2 align="center">Technical Skillset</h2>
+Agentic platform where specialised AI agents collaborate to accelerate software development workflows.
 
-<table align="center">
-<tr>
-<td>
+- Coordinator + specialist agent architecture with deterministic JSON output contracts
+- Azure DevOps ingestion for context-aware code generation
+- Auto-refinement loops with vector DB memory for cross-session context
+- Tool execution layer with full audit trail
+- Desktop monitoring UI built in PyQt
 
-<h3>Robotics</h3>
-<ul>
-  <li>ROS2 (Humble)</li>
-  <li>LiDAR (RPLiDAR)</li>
-  <li>SLAM (Hector / Cartographer)</li>
-  <li>PX4, MAVLink, UAV Systems</li>
-  <li>Raspberry Pi 5, Embedded AI</li>
-</ul>
+`Python` `FastAPI` `Docker` `React` `Vector DB` `LangChain`
 
-</td>
-<td>
 
-<h3>AI / Machine Learning</h3>
-<ul>
-  <li>Deep Learning (PyTorch / TensorFlow)</li>
-  <li>Computer Vision, YOLO, object detection</li>
-  <li>Reinforcement Learning</li>
-  <li>Edge ML (Hailo, TFLite)</li>
-  <li>RAG, LLM Agents (AutoGen, LangGraph)</li>
-</ul>
 
-</td>
-<td>
+### [Web Scraping Pipeline](https://github.com/krishkumarhere) — Company Intelligence Collector
 
-<h3>Backend / DevOps</h3>
-<ul>
-  <li>Python, FastAPI, Flask</li>
-  <li>Docker, GitHub Actions, CI/CD</li>
-  <li>SQL, SQLite, Postgres</li>
-  <li>Microservices Architecture</li>
-  <li>Azure DevOps</li>
-</ul>
+Production scraper built for a live internship assignment under deadline.
 
-</td>
-</tr>
-</table>
+- Bypasses Cloudflare bot-detection using `undetected_chromedriver` with headless Chrome
+- Three-layer fallback selector strategy — resilient to DOM structure changes
+- Extracts structured company data (ratings, sub-ratings, reviews, industry) across 150+ companies
+- Outputs clean 14-column CSV with graceful N/A handling for missing fields
 
-<br/>
+`Python`  `BeautifulSoup` `Requests` `CSV`
 
-<hr/>
 
-<br/>
 
-<hr/>
+## Open Source
 
-<!-- Projects Section -->
-<h2 align="center">Featured Projects</h2>
+Actively contributing to and learning from large production codebases.
 
-<div align="left">
+| Project | Focus Area |
+|---|---|
+| **PX4 Autopilot** | MAVLink, flight controller logic, ROS2 integration |
+| **pymavlink** | Protocol debugging, message handling |
+| **OpenCV** | Computer vision modules, documentation |
 
-<h3>🔹 <strong>Fusion DevStudio — Collaborative Agentic Development Platform</strong></h3>
-<p>
-AI-driven multi-agent system that connects with Azure DevOps,
-reads user stories, orchestrates specialized agents, and autonomously
-generates full-stack applications (frontend, backend, DB, and tests).
-Includes orchestrator, code agents, test agents, legacy analysis, and a real-time monitoring UI.
-</p>
+Current activities: issue investigation, reproducing bugs, reading architecture, writing tests.  
+Goal: first meaningful PR merged before GSoC 2027 application window.
 
-<h3>🔹 <strong>SkyRanger — Autonomous AI Drone System</strong></h3>
-<p>
-A modular UAV stack using Raspberry Pi 5, Hailo AI, PX4,
-LiDAR-based SLAM, real-time object detection, ROS2 pipelines,
-and autonomous mission modules.
-</p>
-<h3>🔹 <strong>RoboRacer — IIT Bombay Autonomous Racing Car</strong></h3>
-<p>
-1:10 scale high-speed autonomous racer with LiDAR, onboard CV,
-SLAM, and real-time decision-making algorithm for track navigation.
-</p>
 
-</div>
 
-<br/>
+## Tech Stack
 
-<hr/>
+```
+Languages    Python · C++ · JavaScript · SQL
+Backend      FastAPI · Flask · Node.js
+Frontend     React · Vite · Tailwind
+AI / ML      PyTorch · TensorFlow · OpenCV · YOLOv8
+Infra        Docker · GitHub Actions · Linux · PostgreSQL
+Robotics     ROS2 · PX4 · MAVLink · Raspberry Pi · ESP32
+```
 
-<!-- GitHub Stats -->
-<h2 align="center">GitHub Stats</h2>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight" height="160"/>
-</div>
 
-<br/><br/>
+## Current Focus (2025–2026)
 
-<!-- Social Links -->
-<h2 align="center">🌐 Connect With Me</h2>
+- **Open source:** consistent contributions to PX4 and OpenCV toward GSoC 2027
+- **DSA + Core CS:** placement preparation, targeting non-mass roles
+- **Depth over breadth:** finishing what I start, shipping over scope-creeping
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/krishkr16/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge"/></a>
-  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-contact-red?style=for-the-badge"/></a>
-  <a href="https://github.com/krishkumarhere/"><img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge"/></a>
-</div>
 
-<br/>
 
----
+## Goals
 
-<div align="center">
-<h3>“Engineering intelligent systems that think, adapt, and build.” </h3>
-</div>
+| Timeline | Target |
+|---|---|
+| 2026 | Strong internship · Open source track record · Solid CS fundamentals |
+| 2027 | GSoC · Research internship / PPO|
 
+
+
+> *Build things. Break things. Understand why they broke. Build again.*
